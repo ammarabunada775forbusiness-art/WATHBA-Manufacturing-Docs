@@ -10,20 +10,22 @@
 - **اللغة:** عربية بيضاء بسيطة، مع شامية خفيفة في حوار ذيب وصخر.
 - **الصوت:** تعليق صوتي ومؤثرات بسيطة فقط؛ لا موسيقى إطلاقًا.
 - **الأبطال:** ذيب هو الشارح الهادئ، وصخر هو المبتدئ الذي يجرّب ويعترض ويسأل.
-- **الهوية:** خربشة سوداء وبيضاء، ذيب بسوار أسود وصخر بسوار أبيض، بلا ملامح وجه.
+- **الهوية:** خربشة سوداء وبيضاء رفيعة متفاوتة الكثافة، جسم رياضي ممتلئ باعتدال، ذيب برباطين أسودين وصخر برباطين أبيضين، بلا ملامح. يحكمها [مرجع الثبات 2.0](../وضعيات%20الشخصيات/مرجع%20ثبات%20شخصيات%20ذيب%20وصخر.md) وأصل ذيب المعتمد بتاريخ 2026-10-23.
 - **البيع:** لا إعلان مباشر لمنتجات وثبة في الفيديو الأول. يظهر الاسم بصريًا فقط حتى لا تبدو القناة إعلانًا.
 
 ## إعدادات المشروع
 
 - الفيديو: 1920×1080، بنسبة 16:9، ومعدل 30fps.
 - التصدير: MP4، ترميز H.264، وجودة 1080p High Quality.
-- الرسومات المنفصلة: PNG بخلفية خضراء صافية #00FF00، ويفضل 2048×2048 للشخصيات والعناصر.
+- الرسومات المنفصلة: PNG بخلفية شفافة للتركيب، مع إبقاء داخل الشخصية معتمًا؛ تستخدم خلفية #00FF00 فقط إذا احتاجها مسار المونتاج. تُحفظ نسبة أبعاد الأصل، ولا يُفرض المقاس المربع. العرض الأسود بتوهج ناعم من فوق الركبتين إلى الرأس مطابق لأصل الأسلوب الجديد، ويمكن فصل التوهج للتركيب.
 - الخلفيات الكاملة: 1920×1080 على الأقل.
 - الصورة المصغرة: 3840×2160 بنسبة 16:9، وتصدر JPG أو PNG بجودة عالية.
 - الخط المقترح: Tajawal ExtraBold أو Noto Kufi Arabic Bold.
 - النص الظاهر في اللقطة: من كلمتين إلى خمس كلمات غالبًا، لا فقرات كاملة.
 
 ## قاعدة الإيقاع
+
+- تبقى خربشة كل وقفة مستقرة؛ لا تعاد عشوائيا في كل إطار. تُبدل الوقفة مع الجملة أو رد الفعل، لا لمجرد مرور ثانيتين أو ثلاث. خلفيات الجيم قليلة التفاصيل وأخف بصريًا من الشخصيات.
 
 - أول 20 ثانية: تغيير بصري كل 1.5–3 ثوانٍ.
 - بقية الفيديو: حركة أو تغيير مفيد كل 3–6 ثوانٍ؛ ليس شرطًا أن تكون رسمة جديدة.
@@ -40,7 +42,7 @@
 1. **دخول سريع:** تحريك Position من خارج الكادر إلى مكانه خلال 0.25–0.35 ثانية، مع Ease Out.
 2. **Pop:** Scale من 85% إلى 106% ثم 100% خلال 0.25 ثانية.
 3. **Punch-in:** تكبير الكاميرا أو العنصر من 100% إلى 112% خلال 0.18 ثانية عند كلمة قوية.
-4. **تنفس:** Scale من 100% إلى 101.5% ببطء ثم العودة؛ يستخدم فقط أثناء الوقوف الساكن.
+4. **تنفس:** حركة صغيرة بطيئة للصدر والكتفين أثناء الوقوف؛ تُثبّت القدمان عند توفر تشويه موضعي. في المونتاج البسيط يمكن استخدام Scale خفيف من 100% إلى 101.5% والعودة.
 5. **اعتراض صخر:** Rotation من -2° إلى +2° مرتين خلال 0.3 ثانية.
 6. **فشل العقلة:** هز أفقي خفيف 8–12 بكسل مع نزول الشخصية، ثم ثبات 0.2 ثانية.
 7. **الإشارة:** استخدم وضعيتين لليد قبل وبعد الإشارة، مع Cut سريع بينهما بدل تحريك ذراع كامل.
@@ -211,13 +213,13 @@ ACTION:
 [Insert one exact pose from the asset list. Specify camera angle, arm position, leg position, and emotion through body language.]
 
 STYLE LOCK:
-Black-and-white chaotic scribble art, rough hand-drawn ink strokes, tangled energetic sketch lines extending slightly outside the body, dense cross-hatching, high contrast, readable athletic anatomy, blank face with jawline only, no eyes, no nose, no mouth.
+Match the approved 2026-10-23 Dheeb standing source from character reference version 2.0: moderately full athletic calisthenics build; thin irregular black hand-ink scribble and varied cross-hatching over a light gray-white interior; readable light areas and natural darker overlaps. No thick tangled web, no exterior scribble halo or hair-like strands. Dark textured shorts, correct wristband colors, bald featureless head, no eyes, brows, nose or mouth.
 
 COMPOSITION:
 One character only, full body visible, centered, generous empty margins, strong readable silhouette.
 
 BACKGROUND:
-Pure chroma-key green #00FF00, completely flat and uniform, no shadow, no green spill on the character.
+Choose the delivery for this shot: transparent background for compositing while preserving opaque light body interiors; pure #00FF00 only if specifically needed for chroma-key workflow. For approved black-background presentation, use a subtle broad white-gray glow behind the character from above the knees to the head, fading smoothly to black. Preserve source aspect ratio.
 
 NEGATIVE:
 No anime, no clean vector art, no 3D, no photorealism, no facial features, no glasses, no long pants, no colors, no text, no logo, no watermark, no extra fingers or limbs, no explicit glute definition.
